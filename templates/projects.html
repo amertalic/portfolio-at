@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <section class="projects">
+        <h1>Projects</h1>
+
+        <div class="project">
+            <h2>MedicPortal - Veterinary Management App</h2>
+            <p>A <strong>commercial veterinary management app</strong> I developed using <strong>FastAPI</strong>, <strong>PostgreSQL</strong>, and <strong>SvelteKit</strong>. The app features multi-tenancy architecture, handling invoices, animal records, and owners. I implemented a <strong>custom migration solution with Alembic</strong>, and it’s set for deployment soon. New features in progress include scheduling, messaging integrations with <strong>Viber</strong> and <strong>WhatsApp</strong>, and webhooks for external systems.</p>
+            <p><strong>Key Technologies:</strong></p>
+            <ul>
+                <li>FastAPI, PostgreSQL, SvelteKit</li>
+                <li>Multi-tenancy architecture</li>
+                <li>Docker deployment (upcoming VPS hosting via Hetzner)</li>
+            </ul>
+            <p><a href="https://github.com/amertalic" target="_blank">More on GitHub</a></p>
+        </div>
+
+        <div class="project">
+            <h2>Nordea Banking Application</h2>
+            <p>Worked on a <strong>banking app for anti-money laundering</strong> at <strong>SQA Consulting</strong>. My focus was on <strong>data validation</strong>, <strong>XML/XLSX/CSV file parsing</strong>, and building a <strong>Django REST API</strong> for complex CRUD operations. This project required deep knowledge of <strong>MySQL</strong>, <strong>Pandas</strong>, and cloud platforms like <strong>AWS</strong> and <strong>Docker</strong> for deployment.</p>
+            <p><strong>Key Technologies:</strong></p>
+            <ul>
+                <li>Django, MySQL, Pandas</li>
+                <li>AWS, Docker</li>
+                <li>Data parsing, validation, and reporting tools</li>
+            </ul>
+            <p><a href="https://github.com/amertalic" target="_blank">View Project Details on GitHub</a></p>
+        </div>
+    </section>
+{% endblock %}
